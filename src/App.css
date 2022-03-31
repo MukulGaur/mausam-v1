@@ -1,0 +1,79 @@
+* {
+  box-sizing: border-box;
+  padding: 0%;
+  margin: 0%;
+}
+
+.main {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  height: 95vh;
+  width: 474px;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 1px 1px 5px black;
+  padding: 10px;
+  text-align: center;
+  /* background-image: url("./images/clear.jfif"); */
+  background-size: cover;
+}
+
+.searchField {
+  border: none;
+  border-radius: 10px;
+  box-shadow: 1px 1px 5px black;
+  text-align: center;
+  font-weight: 500;
+  padding: 5px 10px;
+  width: 400px;
+  margin-top: 30px;
+  font-size: 20px;
+  font-weight: 500;
+  opacity: 20%;
+}
+
+.searchField:hover {
+  opacity: 60%;
+}
+
+#location-date {
+  margin-top: 50px;
+  color: #fff;
+}
+
+#location-date h3 {
+  font-size: 50px;
+  text-transform: capitalize;
+}
+
+#location-date p {
+  font-size: 20px;
+  margin-top: 5px;
+}
+
+#temp {
+  font-size: 50px;
+  margin-top: 20px;
+  color: #fff;
+}
+
+#line {
+  border-top: 4px dashed #fff;
+  width: 70%;
+  margin: auto;
+  margin-top: 10px;
+}
+
+#weather {
+  margin-top: 25px;
+  font-size: 25px;
+  font-weight: 500;
+}
+
+#min-max {
+  margin-top: 20px;
+  font-size: 20px;
+  font-weight: 500;
+}
